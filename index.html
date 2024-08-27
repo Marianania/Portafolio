@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portafolio Mariana</title>
+</head>
+
+<body>
+    <div class="nave">
+        <img class="iconl" src="imagenes/icon menu/home.svg" alt="icon home">
+        <img class="iconl" src="imagenes/icon menu/trabajo.svg" alt="icon experiencia">
+        <img class="iconl" src="imagenes/icon menu/service.svg" alt="icon servicios">
+        <img class="iconl" src="imagenes/icon menu/contact.svg" alt="icon contacto">
+
+    </div>
+    <div class="container">
+        <div>
+            <div class="card1">
+                <div class="section">
+                    <h1>Mariana Alvarez</h1>
+                    <p>Diseñadora</p>
+                    <div class="status">
+                        <p class="status-p">Available for work</p>
+                        <div id="puntito"></div>
+                    </div>
+                    <img class="foto" src="imagenes/foto-yo.jpg" alt="fotomariana">
+                </div>
+                <div class="section">
+                    <p class="text-m">Hola! Soy Mariana. </p>
+                    <p class="text-m border-b">Soy diseñadora gráfica multidisciplinaria. El pincel, el código y la
+                        estrategia son mis mejores herramientas a la hora de encontrar soluciones a cualquier desafío
+                        visual. </p>
+                    <div class="boto">
+                        <button class="btn-black">work</button>
+                        <button class="btn-border">cv download</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card1 brands">
+                <img class="logo" src="imagenes/adobe-logo-24.png" alt="iconos paquetería adobe">
+                <img class="logo" src="imagenes/bxl-visual-studio.svg" alt="icono visual studio code">
+
+            </div>
+            <div class="card1">
+                <div class="section">
+                    <h1 class="ee">Estudios</h1>
+                    <div class="stud-exper">
+                        <p class="medio">Licenciatura Diseño y Comunicación Visual</p>
+                        <p class="mini">Facultad de Estudios Superiores Cuáutilan</p>
+                        <p class="time">2018 - 2021</p>
+                    </div>
+                    <div class="stud-exper">
+                        <p class="medio">Diplomado - Mercadotecnia</p>
+                        <p class="mini">Facultad de Estudios Superiores Cuáutilan</p>
+                        <p class="time">2024</p>
+                    </div>
+                    <div class="stud-exper">
+                        <p class="medio">Programa - Desarrollo Web</p>
+                        <p class="mini">Mujer Digital</p>
+                        <p class="time">2024</p>
+                    </div>
+                </div>
+                <div class="section">
+                    <h1 class="ee">Experiencia</h1>
+                    <div class="stud-exper">
+                        <p class="medio">Diseñadora Jr.</p>
+                        <p class="mini">Enlaces Educanada</p>
+                        <p class="time">2019</p>
+                    </div>
+                    <div class="stud-exper">
+                        <p class="medio">Participación en “Catálogo de fauna mexicana en peligro de extinción”</p>
+                        <a class="minilink"
+                            href="https://issuu.com/yivs/docs/cat_logo_animales_ilustracion_digital_2021"
+                            target="_blank">Link</a>
+                        <p class="mini">Dirigida por el profesor Daniel Jasso en la Facultad de Estudios Superiores
+                            Cuáutilan </p>
+                        <p class="time">2021</p>
+                    </div>
+                    <div class="stud-exper">
+                        <p class="medio">Fotografía en Canadá</p>
+                        <p class="mini">Enlaces Educanada</p>
+                        <p class="time">2022 - 2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card1 contact">
+                <div class="section">
+                    <h1>Contacto</h1>
+                    <div>
+                        <form id="form">
+                            <div class="field">
+                                <label for="from_name">Nombre:</label>
+                                <input type="text" name="from_name" id="from_name">
+                            </div>
+                            <div class="field">
+                                <label for="email_id">Email:</label>
+                                <input type="text" name="email_id" id="email_id">
+                            </div>
+                            <div class="field">
+                                <label for="message">Mensaje:</label>
+                                <input type="text" name="message" id="message">
+                            </div>
+                            <input class="submitt" type="submit" id="button" value="Send Email">
+                        </form>
+                    </div>
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <! -- aquí metemos el emailjs -->
+        <script src="./emailjs.js"> </script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+        <script type="text/javascript">
+            emailjs.init('Gb0Yg_GPm0_GTnIZ6')
+        </script>
+</body>
+
+</html>
