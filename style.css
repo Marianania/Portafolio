@@ -1,21 +1,22 @@
 body {
     background-color: rgb(234, 234, 234) !important;
-    padding: 40px;
-    display: flex;
-    
+    padding: 10px 6px;
 }
+
 p {
     font-family: quicksand, sans-serif;
     font-style: normal;
     font-weight: 200;
 }
-.text-m{
+
+.text-m {
     font-family: quicksand, sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size: 22px;
-text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    text-align: center;
 }
+
 .mini {
     font-family: quicksand, sans-serif;
     font-style: normal;
@@ -24,15 +25,7 @@ text-align: center;
     text-align: center;
     padding: 10px;
 }
-.minilink{
-    font-family: quicksand, sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 12px;
-    position: relative;
-    left: 46%;
-    display: flex;
-}
+
 .medio {
     font-family: quicksand, sans-serif;
     font-style: normal;
@@ -41,39 +34,57 @@ text-align: center;
     text-align: center;
     padding: 10px;
 }
-h1 {font-family: quicksand, sans-serif;
+
+h1 {
+    font-family: quicksand, sans-serif;
     font-weight: 500;
-    font-style: normal;}
-.ee{
+    font-style: normal;
+}
+
+.ee {
     text-align: center;
-}    
-   
-.container{
+    margin: 15px;
+}
+
+.container {
     max-width: 850px;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    margin: auto;
+    margin: 12px;
     border-radius: 8px;
 }
+
 .card1 {
-background-color: rgb(255, 255, 255);
-display: flex;
-padding: 50px;
-box-sizing: border-box;
-border-radius: 12px;
-margin-bottom: 1px;
-border-bottom: 1px solid rgb(208, 208, 208);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-bottom: 1px;
+    border-bottom: 1px solid rgb(208, 208, 208);
 }
+.card2 {
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-bottom: 1px;
+    border-bottom: 1px solid rgb(208, 208, 208);
+    text-align: center;
+    
+}
+
 .section {
-    width: 50%;
     padding: 50px 50px 25px 25px;
+    margin: 5px;
 }
+
 .foto {
-    max-width: 100%;
+    max-width: 200px;
     max-height: 200px;
     border-radius: 15px;
-    padding: 10px;
 }
+
 .status {
     border: 1px solid rgb(208, 208, 208);
     border-radius: 20px;
@@ -83,10 +94,12 @@ border-bottom: 1px solid rgb(208, 208, 208);
     margin-right: 50px;
     justify-content: left;
 }
+
 .status-p {
     margin: 0;
     margin-left: 8px;
 }
+
 #puntito {
     height: 20px;
     width: 20px;
@@ -94,74 +107,95 @@ border-bottom: 1px solid rgb(208, 208, 208);
     border-radius: 20px;
     margin-left: 6px;
 }
+
 .border-b {
     padding-bottom: 20px;
     border-bottom: 1px solid rgb(208, 208, 208);
+}
+
+.boto {
+    padding-left: 22%;
     display: flex;
 }
-.boto{
-   padding-left: 22%;
-   display: flex;
+
+.btn-black {
+    background-color: black;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 40px;
 }
-.btn-black{
-background-color: black;
-color: aliceblue;
-padding: 15px;
-border-radius: 40px;
-}
-.btn-black:hover{
+
+.btn-black:hover {
     background-color: aliceblue;
     color: black;
     cursor: pointer;
 }
-.btn-border{
+
+.btn-border {
     background-color: white;
     color: black;
     border-color: whitesmoke;
     padding: 15px;
     border-radius: 40px;
 }
+
 .btn-border:hover {
-cursor: pointer;
-background-color: black;
-color: aliceblue;
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
 }
-.logo{
-    height: 70px;
-    width: 70px;
+
+.logo {
+    height: 100px;
+    width: 100px;
     border: 2px solid white;
     border-radius: 50px;
     padding: 20px;
     background-color: white;
 }
-.brands{
+
+.brands {
     display: flex;
-    justify-content: center;
 }
+
 /* aqui van los estilos de la navegacion */
 
-.nave{
-    
+.nave {
+
     height: 50px;
     width: 50px;
     position: sticky;
     top: 5%;
     left: 16%px;
-    
+
 }
-.iconl{
+
+.navephone {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 8px;
+    border-radius: 30px;
+    position: sticky;
+    top: 12px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.iconl {
     height: 40px;
     width: 40px;
-    border: 5px ;
+    border: 5px;
     padding: 5px;
     border-radius: 20px;
     background-color: white;
 }
-.iconl:hover{
+
+.iconl:hover {
     cursor: pointer;
-background-color: rgb(216, 191, 235);
+    background-color: rgb(216, 191, 235);
 
 }
+
 .time {
     background-color: white;
     color: black;
@@ -177,16 +211,88 @@ background-color: rgb(216, 191, 235);
     font-family: quicksand, sans-serif;
     font-style: normal;
     font-weight: 200;
+    text-align: center;
 }
-.stud-exper{
+
+.stud-exper {
     border-bottom: 1px solid rgb(208, 208, 208);
+    padding: 10px;
+}
+
+
+
+/* aqui va el carrusel */
+.section2{
+    margin: 30px;
+}
+.link{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.card{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    margin: 0 auto;
+
+}
+.card div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    backface-visibility: hidden;
+    transition: 1s;
+    overflow: hidden;    
+}
+
+.hell{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+}
+.card .front{
+    transform: perspective(500px) rotateY(0deg); 
+    box-shadow: 0 5px 10px rgb(26, 4, 50);
+
+}
+.card .back{
+    transform: perspective(500px) rotateY(180deg);
+    box-shadow: 0 5px 10px rgb(26, 4, 50);
+    padding: 5%;
+
+
+}
+.card .front .medio{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 25px;
+    color: #fff;
+    background: #000000;
+    text-align: center;
+}
+.card .back .mini{
+text-align: center;
+margin-top: 15px;
+}
+
+.card:hover .front{
+    transform: perspective(500px) rotateY(180deg); 
+    
+}
+.card:hover .back{
+    transform: perspective(500px) rotateY(360deg); 
 }
 /* aqui va el formulario */
 .field {
     margin-bottom: 10px;
-  }
-  
-  .field label {
+}
+
+.field label {
     display: block;
     font-family: quicksand, sans-serif;
     font-style: normal;
@@ -194,23 +300,21 @@ background-color: rgb(216, 191, 235);
     font-size: 12px;
     text-align: left;
     color: #777;
-  }
-  
-  .field input {
+}
+
+.field input {
     display: block;
-    min-width: 350px;
+    min-width: 65%;
     line-height: 1.5;
     font-family: quicksand, sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: 12px;
-  }
-  
-  input[type="submit"] {
-    position: relative;
-    left: 31%;
-    display: flex;
-    padding: 20px 40px;
+}
+
+input[type="submit"] {
+    display: block;
+    padding: 3%;
     font-family: quicksand, sans-serif;
     font-style: normal;
     font-weight: 100;
@@ -218,9 +322,253 @@ background-color: rgb(216, 191, 235);
     background-color: #4460AA;
     color: #fff;
     border: none
-  }
-  .submitt:hover{
+}
+
+.submitt:hover {
     background-color: rgb(149, 198, 241);
     color: rgb(255, 255, 255);
     cursor: pointer;
-  }
+}
+
+/* aqui va el cambio para compu */
+@media screen and (min-width: 950px) {
+    .navephone {
+        display: none;
+    }
+
+    .section {
+        width: 50%;
+    }
+
+    .nave {
+        display: block;
+    }
+
+    body {
+        display: flex;
+    }
+
+    .foto {
+        padding: 10px;
+    }
+}
+
+/* aqui va el cambio para ipad */
+@media screen and (max-width: 950px) {
+    .nave {
+        display: none;
+    }
+    .brands {
+        flex-direction: row;
+    }
+    .section {
+        width: 50%;
+    }
+
+    .navephone {
+        display: block;
+    }
+
+    body {
+        padding: 1rem;
+    }
+
+    .text-m {
+        font-size: 20px;
+        padding: 3px 0px 0px 0px;
+    }
+
+    .mini {
+        font-size: 11px;
+    }
+
+    .medio {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+
+    }
+
+    .container {
+        padding: 1rem;
+    }
+    .card{
+        position: relative;
+        width: 250px;
+        height: 300px;
+    
+    }
+    .card1 {
+        padding: 2rem;
+    }
+    .card2 {
+       text-align: center;
+    }
+
+    .section {
+        padding: 2px;
+    }
+
+    .foto {
+        max-height: 190px;
+        max-width: 190px;
+        margin: 0 auto;
+    }
+
+    .boto {
+        margin: 0 auto;
+    }
+
+    .btn-black {
+        padding: 5px;
+
+    }
+
+    .btn-border {
+        padding: 5px;
+    }
+
+    .status {
+        margin-left: 2px;
+        margin-right: 70px;
+        justify-content: left;
+
+    }
+
+    .logo {
+        max-height: 50px;
+        max-width: 50px;
+        padding: 5px;
+    }
+
+    .time {
+        margin: 0 auto;
+    }
+
+}
+
+/* aqui va el cambio para phone */
+@media screen and (max-width: 570px) {
+    .nave {
+        display: none;
+    }
+
+    .navephone {
+        display: block;
+    }
+
+    body {
+        padding: 1rem;
+    }
+
+    .text-m {
+        font-size: 15px;
+        margin: 0 auto;
+        padding: 3px 0px 0px 0px;
+    }
+
+    .mini {
+        font-size: 11px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .medio {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+    .card{
+        position: relative;
+        width: 180px;
+        height: 230px;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .card1 {
+        padding: 2rem;
+        flex-direction: column;
+    }
+    .card2 {
+        display: grid;
+        place-content: center;
+        display: flex;
+        
+    }
+
+    .section {
+        padding: 2px;
+        width: 100%;
+    }
+
+    .foto {
+        max-height: 125px;
+        max-width: 125px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .boto {
+        margin: 0 auto;
+        margin-left: 11%;
+        margin-right: 27%;
+    }
+
+    .btn-black {
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    .btn-border {
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    .status {
+        border: none;
+        display: flex;
+
+        margin: 5px;
+        margin-left: 25%;
+        margin-right: 16%;
+    }
+
+    .logo {
+        max-height: 50px;
+        max-width: 50px;
+        padding: 5px;
+        display: flex;
+    }
+
+    .time {
+        margin: 0 auto;
+    }
+
+    
+
+    input[type="submit"] {
+        margin: 0 auto;
+    }
+
+    .field label {
+        text-align: center;
+    }
+
+    .field input {
+        display: flex;
+        margin: 0 auto;
+    }
+
+}

@@ -7,22 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Portafolio Mariana</title>
+    <! -- carrusel? -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <div class="nave">
-        <img class="iconl" src="imagenes/icon menu/home.svg" alt="icon home">
-        <img class="iconl" src="imagenes/icon menu/trabajo.svg" alt="icon experiencia">
-        <img class="iconl" src="imagenes/icon menu/service.svg" alt="icon servicios">
-        <img class="iconl" src="imagenes/icon menu/contact.svg" alt="icon contacto">
-
+    <div class="navephone">
+        <a href="#home"> <img class="iconl" src="imagenes/icon menu/home.svg" alt="icon home"> </a>
+        <a href="#brands"><img class="iconl" src="imagenes/icon menu/trabajo.svg" alt="icon experiencia"></a>
+        <a href="#trabajos"><img class="iconl" src="imagenes/icon menu/service.svg" alt="icon servicios"></a>
+        <a href="#contact"><img class="iconl" src="imagenes/icon menu/contact.svg" alt="icon contacto"></a>
     </div>
+    <div class="nave">
+        <a href="#home"> <img class="iconl" src="imagenes/icon menu/home.svg" alt="icon home"> </a>
+        <a href="#brands"><img class="iconl" src="imagenes/icon menu/trabajo.svg" alt="icon experiencia"></a>
+        <a href="#trabajos"><img class="iconl" src="imagenes/icon menu/service.svg" alt="icon servicios"></a>
+        <a href="#contact"><img class="iconl" src="imagenes/icon menu/contact.svg" alt="icon contacto"></a>
+
+        </a>
+    </div>
+
     <div class="container">
         <div>
-            <div class="card1">
+            <div class="card1" id="home">
                 <div class="section">
                     <h1>Mariana Alvarez</h1>
-                    <p>Diseñadora</p>
+                    <p>Diseñadora/ Desarrolladora web Jr.</p>
                     <div class="status">
                         <p class="status-p">Available for work</p>
                         <div id="puntito"></div>
@@ -35,17 +47,20 @@
                         estrategia son mis mejores herramientas a la hora de encontrar soluciones a cualquier desafío
                         visual. </p>
                     <div class="boto">
-                        <button class="btn-black">work</button>
-                        <button class="btn-border">cv download</button>
+                        <a href="#trabajos"><button class="btn-black">work</button></a>
+                        <! -- aquí meter pdf jalandolo de una carpeta -->
+                            <a href="" download="Mariana Alvarez CV">
+                                <button class="btn-border">cv download</button>
+                            </a>
                     </div>
                 </div>
             </div>
-            <div class="card1 brands">
-                <img class="logo" src="imagenes/adobe-logo-24.png" alt="iconos paquetería adobe">
+            <div class="card2" id="brands">
+                <img class="logo" src="imagenes/bxl-adobe.svg" alt="iconos paquetería adobe">
                 <img class="logo" src="imagenes/bxl-visual-studio.svg" alt="icono visual studio code">
 
             </div>
-            <div class="card1">
+            <div class="card1" id="carrera">
                 <div class="section">
                     <h1 class="ee">Estudios</h1>
                     <div class="stud-exper">
@@ -72,10 +87,10 @@
                         <p class="time">2019</p>
                     </div>
                     <div class="stud-exper">
-                        <p class="medio">Participación en “Catálogo de fauna mexicana en peligro de extinción”</p>
-                        <a class="minilink"
-                            href="https://issuu.com/yivs/docs/cat_logo_animales_ilustracion_digital_2021"
-                            target="_blank">Link</a>
+                        <a href="https://issuu.com/yivs/docs/cat_logo_animales_ilustracion_digital_2021"
+                            target="_blank">
+                            <p class="medio">Participación en “Catálogo de fauna mexicana en peligro de extinción”</p>
+                        </a>
                         <p class="mini">Dirigida por el profesor Daniel Jasso en la Facultad de Estudios Superiores
                             Cuáutilan </p>
                         <p class="time">2021</p>
@@ -87,34 +102,89 @@
                     </div>
                 </div>
             </div>
-            <div class="card1 contact">
+            <div class="card1" id="trabajos">
+                <h1>Trabajos</h1>
+                <div class="section2">
+                    <div class="juego">
+                        <div class="card">
+                            <div class="front">
+                                <img class="hell" src="imagenes/Hellboy.png" alt="hellboyart">
+                                <p class="medio"> Ilustración Hellboy</p>
+                            </div>
+                            <div class="back">
+                                <p class="mini"> Ilustración Hellboy</p>
+                                <p class="mini">Ilustración digital inspirada en la estética de 'Hellboy II: El ejército
+                                    dorado'. Creada en Adobe Illustrator.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="juego">
+                        <div class="card">
+                            <div class="front">
+                                <img class="hell" src="imagenes/las morras.png" alt="Identidad visual">
+                                <p class="medio">Identidad visual</p>
+                            </div>
+                            <div class="back">
+                                <p class="mini"> Las morras dicen</p>
+                                <p class="mini">Identidad visual creada para el podcast de las morras dicen. En este proyecto se construyó el isotipo, la papelería y las diferentes aplicaciones de la marca. </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="juego">
+                        <div class="card">
+                            <div class="front">
+                                <img class="hell" src="imagenes/diseño editorial.png" alt="Diseño editorial">
+                                <p class="medio">Diseño editorial</p>
+                            </div>
+                            <div class="back">
+                                <p class="mini">MYTHOS</p>
+                                 <p class="mini">Mythos" es un libro ilustrado creado desde cero para un proyecto escolar. Explora la mitología a través de una maquetación original, ilustraciones y diseños editoriales personalizados.</p>
+                               <a class="link" href="https://www.calameo.com/books/00680111916859cbc07c1" target="_blank"><p>Link</p></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="juego">
+                        <div class="card">
+                            <div class="front">
+                                <img class="hell" src="imagenes/DATO CURIOSO DEL TEATRO_Mesa de trabajo 1.png"
+                                    alt="contenido redes sociales">
+                                <p class="medio">Contenido en redes sociales</p>
+                            </div>
+                            <div class="back">
+                                <p class="mini"> Pasaporte del Arte - INBA</p>
+                                <p class="mini">Contribuí al proyecto Pasaporte del Arte del INBA durante mi servicio
+                                    social, creando y gestionando el contenido visual para redes sociales.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1" id="contact">
                 <div class="section">
                     <h1>Contacto</h1>
                     <div>
                         <form id="form">
                             <div class="field">
                                 <label for="from_name">Nombre:</label>
-                                <input type="text" name="from_name" id="from_name">
+                                <input type="text" name="from_name" id="from_name" required>
                             </div>
                             <div class="field">
                                 <label for="email_id">Email:</label>
-                                <input type="text" name="email_id" id="email_id">
+                                <input type="email" name="email_id" id="email_id" required>
                             </div>
                             <div class="field">
                                 <label for="message">Mensaje:</label>
-                                <input type="text" name="message" id="message">
+                                <input type="text" name="message" id="message" required>
                             </div>
                             <input class="submitt" type="submit" id="button" value="Send Email">
-                        </form>
                     </div>
-                    </form>
                 </div>
-
-
             </div>
         </div>
-
     </div>
+
     <! -- aquí metemos el emailjs -->
         <script src="./emailjs.js"> </script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
@@ -122,6 +192,7 @@
         <script type="text/javascript">
             emailjs.init('Gb0Yg_GPm0_GTnIZ6')
         </script>
+
 </body>
 
 </html>
